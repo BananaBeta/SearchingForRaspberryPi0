@@ -2,6 +2,8 @@
 #Introduction
 This script will scan resellers' websites to check Raspberry pi zero stocks.
 Adafruit, Element14 and Raspberry's Swag Store are scanned.
+You can run this script from another Raspberry Pi, you'll receive an email when the Pi Zero will become available.
+This script uses _BeautifulSoup_ for HTML parsing.
 
 #Installation
 Pull this repository on your RaspberryPi.
