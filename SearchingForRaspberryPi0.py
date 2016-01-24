@@ -38,6 +38,7 @@ def check_element14(url_to_check):
 
 current_dir = os.path.dirname(os.path.realpath(__file__))+'/';
 
+# URLs to scan
 url_adafruit = "https://adafruit.com/product/2817";
 url_element14 = "http://www.element14.com/community/community/raspberry-pi";
 url_swag = "http://swag.raspberrypi.org/collections/pi-zero/products/pi-zero-kit";
