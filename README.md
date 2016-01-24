@@ -12,6 +12,11 @@ Define your email account credentials inside the script:
     # set your email credentials here
     my_email_adress='XXX@YYY.com'; email_pwd = 'ZZZ';
 
+Define the list of recipients of the email alert:
+
+    # set the list of email adresses that should receive the alert
+    recipients = [my_email_adress, 'other_email_adress@XXX.com'];
+
 Make this script run every X minutes by adding a planned execution to cron
 
     sudo crontab -e
