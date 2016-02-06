@@ -67,6 +67,6 @@ if(test==True):
         s.login(my_email_adress,email_pwd)
         s.sendmail(msg["From"], recipients, msg.as_string())
         s.close()
-        f=open('./stop_emails.log','w');
+        f=open(current_dir+'/stop_emails.log','w');
         f.write('stop');
         f.close()
